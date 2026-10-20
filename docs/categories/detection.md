@@ -10,3 +10,4 @@ P = pública; G = cadastro gratuito; F = freemium; $ = paga; R = restrita; H = h
 |---|---|---|---|---|---|
 | src-0121 | [Signature Base](https://github.com/Neo23x0/signature-base) | P | IOCs e regras YARA | documented; acesso: provisional | unknown |
 | src-0122 | [Elastic Protections Artifacts](https://github.com/elastic/protections-artifacts) | P | Artefatos de detecção; coleção mista | documented; acesso: provisional | unknown |
+| src-0261 | [SecuriteInfo ClamAV signatures](https://www.securiteinfo.com/clamav-antivirus/improve-detection-rate-of-zero-day-malwares-for-clamav-en.shtml) | F | Bases adicionais de assinaturas ClamAV; não é feed de IPs | documented; acesso: documented | unknown |

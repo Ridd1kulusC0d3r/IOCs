@@ -8,7 +8,7 @@
 
 Um atlas de fontes para SOC, CTI, threat hunting, DFIR e OSINT. Classifica feeds, serviços de consulta, fornecedores, repositórios, bases de contexto e comunidades por acesso, finalidade, proveniência e nível de verificação.
 
-> **250 registros catalogados não significam 250 feeds ativos ou fornecedores independentes.** São 217 entradas da seleção inicial revisada + 33 novas. Há 101 registros com evidência documental de identidade/finalidade ou metadados oficiais, 21 com modelo geral de acesso documentado e **zero endpoints declarados como testados operacionalmente**. Os demais campos permanecem explicitamente pendentes. Contagens: [stats.json](data/stats.json).
+> **270 registros catalogados não significam 250 feeds ativos ou fornecedores independentes.** São 217 entradas da seleção inicial revisada + 53 novas (33 na primeira expansão e 20 na segunda). Há 115 registros com evidência documental de identidade/finalidade ou metadados oficiais, 27 com modelo geral de acesso documentado e **zero endpoints declarados como testados operacionalmente**. Os demais campos permanecem explicitamente pendentes. Contagens: [stats.json](data/stats.json).
 
 ## Explore
 
@@ -16,7 +16,7 @@ Um atlas de fontes para SOC, CTI, threat hunting, DFIR e OSINT. Classifica feeds
 |---|---|
 | Consultar todas as fontes | [Catálogo completo](docs/CATALOG.md) |
 | Importar metadados em uma ferramenta | [JSON canônico](data/sources.json) · [CSV](data/sources.csv) |
-| Ver a expansão da pesquisa | [33 novas fontes](docs/NEW-SOURCES.md) · [Achados e correções](docs/RESEARCH-2026-10-20.md) |
+| Ver a expansão da pesquisa | [53 novas fontes](docs/NEW-SOURCES.md) · [Achados e correções](docs/RESEARCH-2026-10-20.md) |
 | Entender gratuito, pago e restrito | [Classificação de acesso](docs/ACCESS.md) |
 | Integrar no MISP, OpenCTI ou Wazuh | [Guia de integração](docs/INTEGRATIONS.md) |
 | Avaliar confiabilidade e atualidade | [Metodologia](docs/METHODOLOGY.md) · [Fila de revisão](docs/REVIEW-QUEUE.md) |
@@ -26,13 +26,13 @@ Um atlas de fontes para SOC, CTI, threat hunting, DFIR e OSINT. Classifica feeds
 
 | Categoria | Registros | O que representa |
 |---|---:|---|
-| [Feeds e listas](docs/categories/feeds.md) | 60 | Inclui candidatos e históricos, não apenas feeds ativos |
-| [Análise e enriquecimento](docs/categories/analysis.md) | 31 | Sandboxes, reputação e bases consultáveis |
-| [Inteligência comercial](docs/categories/commercial.md) | 45 | Produtos; API/exportação dependem da contratação |
-| [Pesquisas e repositórios](docs/categories/research.md) | 44 | IOCs em publicações, não necessariamente feeds contínuos |
-| [Contexto](docs/categories/context.md) | 44 | DNS, ASN, certificados, vulnerabilidades e conhecimento |
+| [Feeds e listas](docs/categories/feeds.md) | 72 | Inclui candidatos e históricos, não apenas feeds ativos |
+| [Análise e enriquecimento](docs/categories/analysis.md) | 32 | Sandboxes, reputação e bases consultáveis |
+| [Inteligência comercial](docs/categories/commercial.md) | 46 | Produtos; API/exportação dependem da contratação |
+| [Pesquisas e repositórios](docs/categories/research.md) | 48 | IOCs em publicações, não necessariamente feeds contínuos |
+| [Contexto](docs/categories/context.md) | 45 | DNS, ASN, certificados, vulnerabilidades e conhecimento |
 | [Comunidades](docs/categories/communities.md) | 24 | Canais de compartilhamento e elegibilidade |
-| [Artefatos de detecção](docs/categories/detection.md) | 2 | Coleções mistas de regras e indicadores |
+| [Artefatos de detecção](docs/categories/detection.md) | 3 | Coleções mistas de regras e indicadores |
 
 ## Acesso em uma linha
 
@@ -62,6 +62,10 @@ node scripts/catalog.mjs check
 ```
 
 Edite `data/sources.json`. O comando `build` regenera CSV, estatísticas, catálogo e páginas por categoria. O comando `check` valida estrutura, IDs, relações, duplicações e sincronização dos arquivos derivados. A CI executa o mesmo procedimento sem consultar ou baixar malware.
+
+## Segunda expansão
+
+[20 novas entradas e suas evidências](docs/RESEARCH-2026-10-20-ROUND2.md): 14 com documentação direta e seis candidatas identificadas no catálogo oficial MISP, incluindo referências atribuídas ao Banco do Brasil e SERPRO.
 
 ## Correções que importam
 

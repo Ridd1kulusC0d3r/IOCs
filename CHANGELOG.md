@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-20 — segunda expansão
+
+- 20 fontes adicionais; total 270, com 53 adições acumuladas.
+- 14 descobertas com documentação direta e seis candidatas via MISP.
+- PRODAFT, WithSecureLabs, ThreatLabz, Maltiverse e HoneyLabs incluídos.
+- Referências brasileiras BB/SERPRO marcadas como candidatas, sem teste de endpoint.
+- Contagem de novas fontes no gerador agora calculada automaticamente.
+
 ## 2026-10-20 — primeira edição
 
 - 250 registros estruturados: 217 da lista revisada e 33 novos.

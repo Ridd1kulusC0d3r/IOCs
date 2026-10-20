@@ -1,17 +1,17 @@
 {
-  "total": 250,
+  "total": 270,
   "baseline": 217,
-  "added": 33,
-  "documented": 101,
-  "access_documented": 21,
+  "added": 53,
+  "documented": 115,
+  "access_documented": 27,
   "operationally_tested": 0,
   "categories": {
-    "feeds": 60,
-    "analysis": 31,
-    "commercial": 45,
-    "research": 44,
-    "context": 44,
+    "feeds": 72,
+    "analysis": 32,
+    "commercial": 46,
+    "research": 48,
+    "context": 45,
     "communities": 24,
-    "detection": 2
+    "detection": 3
   }
 }

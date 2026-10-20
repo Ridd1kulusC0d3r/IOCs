@@ -52,3 +52,7 @@ P = pública; G = cadastro gratuito; F = freemium; $ = paga; R = restrita; H = h
 | src-0230 | [blackorbird APT_REPORT](https://github.com/blackorbird/APT_REPORT) | P | Coleção documental e IOCs; não é feed contínuo | documented; acesso: provisional | unknown |
 | src-0231 | [ExecuteMalware Malware-IOCs](https://github.com/executemalware/Malware-IOCs) | P | Coleção de indicadores de malware | documented; acesso: provisional | unknown |
 | src-0251 | [Datadog public IOCs](https://github.com/DataDog/indicators-of-compromise) | P | Indicadores de Datadog Security Research | documented; acesso: provisional | unknown |
+| src-0254 | [PRODAFT public IOCs](https://github.com/prodaft/malware-ioc) | P | Indicadores de investigações de malware e atores | documented; acesso: documented | unknown |
+| src-0255 | [WithSecureLabs IOCs](https://github.com/WithSecureLabs/iocs) | P | Indicadores de relatórios e investigações | documented; acesso: documented | unknown |
+| src-0256 | [StrangerealIntel DailyIOC](https://github.com/StrangerealIntel/DailyIOC) | P / H | Arquivo de IOCs de artigos e publicações; último push observado em 2023 | documented; acesso: documented | unknown |
+| src-0257 | [Zscaler ThreatLabz IOCs](https://github.com/ThreatLabz/iocs) | P | IOCs das pesquisas públicas do ThreatLabz | documented; acesso: documented | unknown |

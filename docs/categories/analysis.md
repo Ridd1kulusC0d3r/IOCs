@@ -39,3 +39,4 @@ P = pública; G = cadastro gratuito; F = freemium; $ = paga; R = restrita; H = h
 | src-0239 | [Phishing Initiative](https://phishing-initiative.eu/contrib/) | P | Consulta e denúncia; exportação em massa não confirmada | documented; acesso: documented | unknown |
 | src-0247 | [IPVoid](https://www.ipvoid.com/) | P / ? | Consulta agregada de reputação de IP; API separada | documented; acesso: provisional | unknown |
 | src-0248 | [URLVoid](https://www.urlvoid.com/) | P / ? | Consulta agregada de reputação web; API separada | documented; acesso: provisional | unknown |
+| src-0259 | [Maltiverse](https://maltiverse.com/) | F / ? | Reputação, contexto e feeds de indicadores agregados | documented; acesso: provisional | unknown |

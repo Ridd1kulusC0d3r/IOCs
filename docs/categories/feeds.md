@@ -68,3 +68,15 @@ P = pública; G = cadastro gratuito; F = freemium; $ = paga; R = restrita; H = h
 | src-0241 | [TweetFeed](https://tweetfeed.live/) | P / ? | Indicadores extraídos de publicações; validar contexto original | documented; acesso: provisional | unknown |
 | src-0242 | [PrecisionSec](https://precisionsec.com/) | F | Feeds comerciais e conjuntos gratuitos anunciados | documented; acesso: documented | unknown |
 | src-0252 | [USOM legacy URL list](https://www.usom.gov.tr/url-list.txt) | ? | URL redireciona a siberguvenlik.gov.tr/api/; migração não validada | redirect_observed; acesso: unknown | unknown |
+| src-0258 | [infection.cc](https://infection.cc/) | P / ? | Pesquisa e exportação de indicadores agregados | documented; acesso: provisional | unknown |
+| src-0262 | [HoneyLabs](https://honeylabs.net/) | F | Telemetria de honeypots e feeds de exploração e infraestrutura | documented; acesso: documented | unknown |
+| src-0263 | [James Brine CTI](https://jamesbrine.com.au/) | P / ? | Indicadores de telemetria e feed de força bruta | documented; acesso: provisional | unknown |
+| src-0264 | [Rectifyq curated MISP feeds](https://rectifyq.com/) | P / ? | Inteligência curada com recortes por ano, Malásia e ICS/OT | documented; acesso: provisional | unknown |
+| src-0265 | [SiberKapan](https://siberkapan.org/) | P / ? | Plataforma de ameaças e feeds com foco na Turquia | documented; acesso: provisional | unknown |
+| src-0266 | [Rösti OSINT MISP feed](https://misp.rosti.dev/) | P / ? | Eventos MISP reempacotados de inteligência aberta | documented; acesso: provisional | unknown |
+| src-0268 | [Banco do Brasil malicious hashes](https://cti.bb.com.br:8443/hash-list.csv) | P / ? | Feed de hashes atribuído pelo catálogo oficial MISP; endpoint não validado | candidate; acesso: provisional | unknown |
+| src-0269 | [SERPRO IP Reputation](https://s3.i02.estaleiro.serpro.gov.br/blocklist/blocklist.txt) | P / ? | Reputação de IPs atribuída pelo catálogo oficial MISP; endpoint não validado | candidate; acesso: provisional | unknown |
+| src-0270 | [APNIC Community Honeynet feeds](https://feeds.honeynet.asia/) | P / ? | URLs e força bruta SSH/Telnet listadas no MISP; acesso não validado | candidate; acesso: provisional | unknown |
+| src-0271 | [hideNseek LAB CTI](https://data.hidenseek.dev/) | P / ? | JSON, CSV e blocklist listados no MISP; uma única coleção | candidate; acesso: provisional | unknown |
+| src-0272 | [NOCACTI MISP feeds](https://misp-feed.nocacti.com/) | P / ? | Feeds de intrusão e infraestrutura adversária listados no MISP | candidate; acesso: provisional | unknown |
+| src-0273 | [MalSilo feeds](https://malsilo.gitlab.io/) | P / ? | Listas de URL, IP e domínio listadas no MISP; atualidade pendente | candidate; acesso: provisional | unknown |

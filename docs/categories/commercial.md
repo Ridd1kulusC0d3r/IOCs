@@ -53,3 +53,4 @@ P = pública; G = cadastro gratuito; F = freemium; $ = paga; R = restrita; H = h
 | src-0244 | [OpenText Threat Intelligence / BrightCloud](https://www.opentext.com/products/threat-intelligence) | $ | Reputação e categorização; antigo Webroot/BrightCloud | documented; acesso: provisional | unknown |
 | src-0245 | [Data443 Cyren Threat Intelligence](https://data443.com/cyren-threat-intelligence/) | $ | Inteligência de ameaças; marca Cyren consolidada | documented; acesso: provisional | unknown |
 | src-0246 | [Abusix Guardian Intel / Mail](https://abusix.com/) | $ / ? | Reputação e abuso de e-mail; modalidades a confirmar | documented; acesso: provisional | unknown |
+| src-0260 | [Threatray Binary Intelligence](https://www.threatray.com/) | $ / ? | Pesquisa e inteligência de malware baseada em código | documented; acesso: provisional | unknown |

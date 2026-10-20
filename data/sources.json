@@ -7061,7 +7061,7 @@
     {
       "id": "src-0138",
       "name": "Zscaler ThreatLabz",
-      "provider": null,
+      "provider": "Zscaler",
       "url": "https://www.zscaler.com/blogs/security-research",
       "category": "research",
       "access": [
@@ -7091,7 +7091,9 @@
         "evidence": []
       },
       "upstream_ids": [],
-      "related_ids": [],
+      "related_ids": [
+        "src-0257"
+      ],
       "lifecycle": "unknown",
       "notes": [],
       "batch": "baseline-2026-10-20",
@@ -12802,6 +12804,1112 @@
       ],
       "batch": "expansion-2026-10-20",
       "previous_list_number": 253,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0254",
+      "name": "PRODAFT public IOCs",
+      "provider": "PRODAFT",
+      "url": "https://github.com/prodaft/malware-ioc",
+      "category": "research",
+      "access": [
+        "P"
+      ],
+      "description": "Indicadores de investigações de malware e atores",
+      "origin": "first_party",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": "MIT",
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "documented",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://github.com/prodaft/malware-ioc",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          },
+          {
+            "url": "https://github.com/prodaft/malware-ioc/blob/master/README.md",
+            "scope": "repository_content",
+            "note": "README identifica a coleção pública de IOCs. Licença dos dados de terceiros continua a exigir revisão."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      },
+      "repository_metadata": {
+        "full_name": "prodaft/malware-ioc",
+        "default_branch": "master",
+        "archived": false,
+        "pushed_at": "2025-11-04T09:54:54Z",
+        "license_reported_by_github": "MIT",
+        "checked_at": "2026-10-20"
+      }
+    },
+    {
+      "id": "src-0255",
+      "name": "WithSecureLabs IOCs",
+      "provider": "WithSecure",
+      "url": "https://github.com/WithSecureLabs/iocs",
+      "category": "research",
+      "access": [
+        "P"
+      ],
+      "description": "Indicadores de relatórios e investigações",
+      "origin": "first_party",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": "BSD-2-Clause",
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "documented",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://github.com/WithSecureLabs/iocs",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          },
+          {
+            "url": "https://github.com/WithSecureLabs/iocs/blob/master/README.md",
+            "scope": "repository_content",
+            "note": "README identifica a coleção pública de IOCs. Licença dos dados de terceiros continua a exigir revisão."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      },
+      "repository_metadata": {
+        "full_name": "WithSecureLabs/iocs",
+        "default_branch": "master",
+        "archived": false,
+        "pushed_at": "2026-08-27T05:55:54Z",
+        "license_reported_by_github": "BSD-2-Clause",
+        "checked_at": "2026-10-20"
+      }
+    },
+    {
+      "id": "src-0256",
+      "name": "StrangerealIntel DailyIOC",
+      "provider": "StrangerealIntel",
+      "url": "https://github.com/StrangerealIntel/DailyIOC",
+      "category": "research",
+      "access": [
+        "P",
+        "H"
+      ],
+      "description": "Arquivo de IOCs de artigos e publicações; último push observado em 2023",
+      "origin": "aggregated",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "documented",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://github.com/StrangerealIntel/DailyIOC",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          },
+          {
+            "url": "https://github.com/StrangerealIntel/DailyIOC/blob/master/README.md",
+            "scope": "repository_content",
+            "note": "README identifica a coleção pública de IOCs. Licença dos dados de terceiros continua a exigir revisão."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [
+        "Histórico por finalidade declarada; GitHub não está marcado como archived. Último push observado: 2023-12-12."
+      ],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      },
+      "repository_metadata": {
+        "full_name": "StrangerealIntel/DailyIOC",
+        "default_branch": "master",
+        "archived": false,
+        "pushed_at": "2023-12-12T18:35:01Z",
+        "license_reported_by_github": null,
+        "checked_at": "2026-10-20"
+      }
+    },
+    {
+      "id": "src-0257",
+      "name": "Zscaler ThreatLabz IOCs",
+      "provider": "Zscaler",
+      "url": "https://github.com/ThreatLabz/iocs",
+      "category": "research",
+      "access": [
+        "P"
+      ],
+      "description": "IOCs das pesquisas públicas do ThreatLabz",
+      "origin": "first_party",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": "MIT",
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "documented",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://github.com/ThreatLabz/iocs",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          },
+          {
+            "url": "https://github.com/ThreatLabz/iocs/blob/main/README.md",
+            "scope": "repository_content",
+            "note": "README identifica a coleção pública de IOCs. Licença dos dados de terceiros continua a exigir revisão."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [
+        "src-0138"
+      ],
+      "lifecycle": "unknown",
+      "notes": [],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      },
+      "repository_metadata": {
+        "full_name": "ThreatLabz/iocs",
+        "default_branch": "main",
+        "archived": false,
+        "pushed_at": "2026-09-28T22:24:18Z",
+        "license_reported_by_github": "MIT",
+        "checked_at": "2026-10-20"
+      }
+    },
+    {
+      "id": "src-0258",
+      "name": "infection.cc",
+      "provider": "infection.cc",
+      "url": "https://infection.cc/",
+      "category": "feeds",
+      "access": [
+        "P",
+        "?"
+      ],
+      "description": "Pesquisa e exportação de indicadores agregados",
+      "origin": "aggregated",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://infection.cc/",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          }
+        ]
+      },
+      "upstream_ids": [
+        "src-0001",
+        "src-0002",
+        "src-0012",
+        "src-0022",
+        "src-0007",
+        "src-0008",
+        "src-0156",
+        "src-0180"
+      ],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [
+        "Parte do conteúdo é contexto Tor; não tratar todos os registros como maliciosos. Datas do agregador podem ser datas de coleta."
+      ],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0259",
+      "name": "Maltiverse",
+      "provider": "Maltiverse",
+      "url": "https://maltiverse.com/",
+      "category": "analysis",
+      "access": [
+        "F",
+        "?"
+      ],
+      "description": "Reputação, contexto e feeds de indicadores agregados",
+      "origin": "aggregated",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://maltiverse.com/",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0260",
+      "name": "Threatray Binary Intelligence",
+      "provider": "Threatray",
+      "url": "https://www.threatray.com/",
+      "category": "commercial",
+      "access": [
+        "$",
+        "?"
+      ],
+      "description": "Pesquisa e inteligência de malware baseada em código",
+      "origin": "first_party",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://www.threatray.com/",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0261",
+      "name": "SecuriteInfo ClamAV signatures",
+      "provider": "SecuriteInfo",
+      "url": "https://www.securiteinfo.com/clamav-antivirus/improve-detection-rate-of-zero-day-malwares-for-clamav-en.shtml",
+      "category": "detection",
+      "access": [
+        "F"
+      ],
+      "description": "Bases adicionais de assinaturas ClamAV; não é feed de IPs",
+      "origin": "first_party",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "documented",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://www.securiteinfo.com/clamav-antivirus/improve-detection-rate-of-zero-day-malwares-for-clamav-en.shtml",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          },
+          {
+            "url": "https://www.securiteinfo.com/clamav-antivirus/improve-detection-rate-of-zero-day-malwares-for-clamav-en.shtml",
+            "scope": "access_model",
+            "note": "Página oficial apresenta plano gratuito e modalidades pagas; não é confirmação de licença irrestrita."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0262",
+      "name": "HoneyLabs",
+      "provider": "HoneyLabs",
+      "url": "https://honeylabs.net/",
+      "category": "feeds",
+      "access": [
+        "F"
+      ],
+      "description": "Telemetria de honeypots e feeds de exploração e infraestrutura",
+      "origin": "first_party",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "documented",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://honeylabs.net/",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          },
+          {
+            "url": "https://honeylabs.net/pricing",
+            "scope": "access_model",
+            "note": "Página oficial apresenta plano gratuito e modalidades pagas; não é confirmação de licença irrestrita."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0263",
+      "name": "James Brine CTI",
+      "provider": "James Brine",
+      "url": "https://jamesbrine.com.au/",
+      "category": "feeds",
+      "access": [
+        "P",
+        "?"
+      ],
+      "description": "Indicadores de telemetria e feed de força bruta",
+      "origin": "unknown",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://jamesbrine.com.au/",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0264",
+      "name": "Rectifyq curated MISP feeds",
+      "provider": "Rectifyq",
+      "url": "https://rectifyq.com/",
+      "category": "feeds",
+      "access": [
+        "P",
+        "?"
+      ],
+      "description": "Inteligência curada com recortes por ano, Malásia e ICS/OT",
+      "origin": "aggregated",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://rectifyq.com/",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [
+        "Cinco endpoints do catálogo MISP agrupados como uma fonte, sem multiplicar por ano ou recorte."
+      ],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0265",
+      "name": "SiberKapan",
+      "provider": "SiberKapan",
+      "url": "https://siberkapan.org/",
+      "category": "feeds",
+      "access": [
+        "P",
+        "?"
+      ],
+      "description": "Plataforma de ameaças e feeds com foco na Turquia",
+      "origin": "unknown",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://siberkapan.org/",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0266",
+      "name": "Rösti OSINT MISP feed",
+      "provider": "bin.re / Rösti",
+      "url": "https://misp.rosti.dev/",
+      "category": "feeds",
+      "access": [
+        "P",
+        "?"
+      ],
+      "description": "Eventos MISP reempacotados de inteligência aberta",
+      "origin": "aggregated",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://misp.rosti.dev/",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0267",
+      "name": "Shreshta Newly Registered Domains",
+      "provider": "Shreshta IT",
+      "url": "https://shreshtait.com/newly-registered-domains/",
+      "category": "context",
+      "access": [
+        "F",
+        "?"
+      ],
+      "description": "Domínios recém-registrados; registro recente não implica malícia",
+      "origin": "unknown",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "documented",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://shreshtait.com/newly-registered-domains/",
+            "scope": "identity_and_purpose",
+            "note": "Página do publicador ou repositório consultado; não foi testada a ingestão."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0268",
+      "name": "Banco do Brasil malicious hashes",
+      "provider": "Banco do Brasil S.A.",
+      "url": "https://cti.bb.com.br:8443/hash-list.csv",
+      "category": "feeds",
+      "access": [
+        "P",
+        "?"
+      ],
+      "description": "Feed de hashes atribuído pelo catálogo oficial MISP; endpoint não validado",
+      "origin": "unknown",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "candidate",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://api.github.com/repos/MISP/MISP/contents/app/files/feed-metadata/defaults.json",
+            "scope": "directory_listing",
+            "note": "Metadados do projeto MISP atribuem esta fonte ao fornecedor. Não confirma operação, licença ou independência."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [
+        "Candidata documental; não promover a feed operacional antes de validar resposta e termos."
+      ],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0269",
+      "name": "SERPRO IP Reputation",
+      "provider": "SERPRO",
+      "url": "https://s3.i02.estaleiro.serpro.gov.br/blocklist/blocklist.txt",
+      "category": "feeds",
+      "access": [
+        "P",
+        "?"
+      ],
+      "description": "Reputação de IPs atribuída pelo catálogo oficial MISP; endpoint não validado",
+      "origin": "unknown",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "candidate",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://api.github.com/repos/MISP/MISP/contents/app/files/feed-metadata/defaults.json",
+            "scope": "directory_listing",
+            "note": "Metadados do projeto MISP atribuem esta fonte ao fornecedor. Não confirma operação, licença ou independência."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [
+        "Candidata documental; não promover a feed operacional antes de validar resposta e termos."
+      ],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0270",
+      "name": "APNIC Community Honeynet feeds",
+      "provider": "APNIC Community Honeynet Project",
+      "url": "https://feeds.honeynet.asia/",
+      "category": "feeds",
+      "access": [
+        "P",
+        "?"
+      ],
+      "description": "URLs e força bruta SSH/Telnet listadas no MISP; acesso não validado",
+      "origin": "unknown",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "candidate",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://api.github.com/repos/MISP/MISP/contents/app/files/feed-metadata/defaults.json",
+            "scope": "directory_listing",
+            "note": "Metadados do projeto MISP atribuem esta fonte ao fornecedor. Não confirma operação, licença ou independência."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [
+        "Candidata documental; não promover a feed operacional antes de validar resposta e termos."
+      ],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0271",
+      "name": "hideNseek LAB CTI",
+      "provider": "hideNseek LAB",
+      "url": "https://data.hidenseek.dev/",
+      "category": "feeds",
+      "access": [
+        "P",
+        "?"
+      ],
+      "description": "JSON, CSV e blocklist listados no MISP; uma única coleção",
+      "origin": "unknown",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "candidate",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://api.github.com/repos/MISP/MISP/contents/app/files/feed-metadata/defaults.json",
+            "scope": "directory_listing",
+            "note": "Metadados do projeto MISP atribuem esta fonte ao fornecedor. Não confirma operação, licença ou independência."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [
+        "Candidata documental; não promover a feed operacional antes de validar resposta e termos."
+      ],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0272",
+      "name": "NOCACTI MISP feeds",
+      "provider": "NOCACTI",
+      "url": "https://misp-feed.nocacti.com/",
+      "category": "feeds",
+      "access": [
+        "P",
+        "?"
+      ],
+      "description": "Feeds de intrusão e infraestrutura adversária listados no MISP",
+      "origin": "unknown",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "candidate",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://api.github.com/repos/MISP/MISP/contents/app/files/feed-metadata/defaults.json",
+            "scope": "directory_listing",
+            "note": "Metadados do projeto MISP atribuem esta fonte ao fornecedor. Não confirma operação, licença ou independência."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [
+        "Candidata documental; não promover a feed operacional antes de validar resposta e termos."
+      ],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
+      "freshness": {
+        "update_frequency": null,
+        "retention": null,
+        "last_operational_check": null
+      }
+    },
+    {
+      "id": "src-0273",
+      "name": "MalSilo feeds",
+      "provider": "MalSilo",
+      "url": "https://malsilo.gitlab.io/",
+      "category": "feeds",
+      "access": [
+        "P",
+        "?"
+      ],
+      "description": "Listas de URL, IP e domínio listadas no MISP; atualidade pendente",
+      "origin": "unknown",
+      "observables": [],
+      "api": {
+        "available": null,
+        "documentation_url": null,
+        "authentication": null,
+        "formats": [],
+        "bulk_export": null
+      },
+      "terms": {
+        "commercial_use": "unknown",
+        "redistribution": "unknown",
+        "license": null,
+        "terms_url": null
+      },
+      "verification": {
+        "discovery": "candidate",
+        "access": "provisional",
+        "operational": "not_tested",
+        "checked_at": "2026-10-20",
+        "evidence": [
+          {
+            "url": "https://api.github.com/repos/MISP/MISP/contents/app/files/feed-metadata/defaults.json",
+            "scope": "directory_listing",
+            "note": "Metadados do projeto MISP atribuem esta fonte ao fornecedor. Não confirma operação, licença ou independência."
+          }
+        ]
+      },
+      "upstream_ids": [],
+      "related_ids": [],
+      "lifecycle": "unknown",
+      "notes": [
+        "Candidata documental; não promover a feed operacional antes de validar resposta e termos."
+      ],
+      "batch": "expansion-2026-10-20-round2",
+      "previous_list_number": null,
       "freshness": {
         "update_frequency": null,
         "retention": null,

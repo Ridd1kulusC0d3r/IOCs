@@ -52,3 +52,4 @@ P = pública; G = cadastro gratuito; F = freemium; $ = paga; R = restrita; H = h
 | src-0249 | [ipdata](https://www.ipdata.co/) | F | Metadados de IP, anonimização e reputação | documented; acesso: provisional | unknown |
 | src-0250 | [IP2Location](https://www.ip2location.com/) | F | Geolocalização e proxy; não implica malícia | documented; acesso: provisional | unknown |
 | src-0253 | [Ransomware.live](https://www.ransomware.live/) | P / ? | Monitoramento de publicações de ransomware; disponibilidade não verificada | retrieval_failed; acesso: provisional | unknown |
+| src-0267 | [Shreshta Newly Registered Domains](https://shreshtait.com/newly-registered-domains/) | F / ? | Domínios recém-registrados; registro recente não implica malícia | documented; acesso: provisional | unknown |

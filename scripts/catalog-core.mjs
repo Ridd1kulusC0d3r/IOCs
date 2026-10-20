@@ -46,6 +46,6 @@ const stats={total:sources.length,baseline:sources.filter(r=>r.batch.startsWith(
 files["data/stats.json"]=JSON.stringify(stats,null,2)+"\n";
 const pending=sources.filter(r=>r.verification.access!=="documented"||r.access.includes("?")||r.lifecycle==="archived");
 files["docs/REVIEW-QUEUE.md"]="# Fila de revisão\n\nGerada a partir do JSON. Todos os registros ainda precisam de validação operacional. Esta fila destaca acesso não documentado, incertezas e fontes arquivadas.\n\nPrioridade: arquivados e redirecionamentos; depois endpoints de feeds e termos comerciais; depois fontes documentais e contexto.\n\n"+table(pending);
-files["docs/NEW-SOURCES.md"]="# Novas fontes — 2026-10-20\n\n33 entradas adicionais, distintas da lista anterior. Não são 33 fornecedores independentes. Natureza e nível de verificação aparecem abaixo.\n\n"+intro+table(sources.filter(r=>r.batch.startsWith("expansion")));
+files["docs/NEW-SOURCES.md"]="# Novas fontes — 2026-10-20\n\n"+sources.filter(r=>r.batch.startsWith("expansion")).length+" entradas adicionais acumuladas, distintas da seleção inicial. Não são 33 fornecedores independentes. Natureza e nível de verificação aparecem abaixo.\n\n"+intro+table(sources.filter(r=>r.batch.startsWith("expansion")));
 return files;
 }
