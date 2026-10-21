@@ -3,20 +3,23 @@
 **Descobrir fontes. Entender o acesso. Preservar a evidência.**
 
 [![Catalog validation](https://github.com/Ridd1kulusC0d3r/IOCs/actions/workflows/catalog.yml/badge.svg)](https://github.com/Ridd1kulusC0d3r/IOCs/actions/workflows/catalog.yml)
-![Snapshot](https://img.shields.io/badge/snapshot-2026--10--20-2563eb)
+![Snapshot](https://img.shields.io/badge/snapshot-2026--10--21-2563eb)
 ![Scope](https://img.shields.io/badge/scope-IOC%20%2B%20CTI-0f766e)
 
 Um atlas de fontes para SOC, CTI, threat hunting, DFIR e OSINT. Classifica feeds, serviços de consulta, fornecedores, repositórios, bases de contexto e comunidades por acesso, finalidade, proveniência e nível de verificação.
 
-> **270 registros catalogados não significam 250 feeds ativos ou fornecedores independentes.** São 217 entradas da seleção inicial revisada + 53 novas (33 na primeira expansão e 20 na segunda). Há 115 registros com evidência documental de identidade/finalidade ou metadados oficiais, 27 com modelo geral de acesso documentado e **zero endpoints declarados como testados operacionalmente**. Os demais campos permanecem explicitamente pendentes. Contagens: [stats.json](data/stats.json).
+> **348 registros catalogados não significam 348 feeds ativos ou fornecedores independentes.** São 217 registros da seleção inicial e 131 adições. Há 163 registros com descoberta documental, 28 com acesso documentado e **zero endpoints testados operacionalmente**. Separadamente, foram reunidas **501 URLs de descoberta** de três catálogos e **26 menções pendentes de identificação**. Esses conjuntos têm sobreposição e não devem ser somados. [Estatísticas](data/stats.json).
 
 ## Explore
 
 | Quero… | Abrir |
 |---|---|
+| Navegar por país | [Índice geográfico](docs/COUNTRIES.md) |
+| Explorar os catálogos importados | [501 URLs de descoberta](docs/DISCOVERY.md) |
+| Revisar menções ainda não identificadas | [Fila de identificação](docs/PENDING-SUBMISSIONS.md) |
 | Consultar todas as fontes | [Catálogo completo](docs/CATALOG.md) |
 | Importar metadados em uma ferramenta | [JSON canônico](data/sources.json) · [CSV](data/sources.csv) |
-| Ver a expansão da pesquisa | [53 novas fontes](docs/NEW-SOURCES.md) · [Achados e correções](docs/RESEARCH-2026-10-20.md) |
+| Ver a expansão da pesquisa | [131 entradas adicionadas](docs/NEW-SOURCES.md) · [Achados e correções](docs/RESEARCH-2026-10-20.md) |
 | Entender gratuito, pago e restrito | [Classificação de acesso](docs/ACCESS.md) |
 | Integrar no MISP, OpenCTI ou Wazuh | [Guia de integração](docs/INTEGRATIONS.md) |
 | Avaliar confiabilidade e atualidade | [Metodologia](docs/METHODOLOGY.md) · [Fila de revisão](docs/REVIEW-QUEUE.md) |
@@ -26,13 +29,16 @@ Um atlas de fontes para SOC, CTI, threat hunting, DFIR e OSINT. Classifica feeds
 
 | Categoria | Registros | O que representa |
 |---|---:|---|
-| [Feeds e listas](docs/categories/feeds.md) | 72 | Inclui candidatos e históricos, não apenas feeds ativos |
-| [Análise e enriquecimento](docs/categories/analysis.md) | 32 | Sandboxes, reputação e bases consultáveis |
-| [Inteligência comercial](docs/categories/commercial.md) | 46 | Produtos; API/exportação dependem da contratação |
-| [Pesquisas e repositórios](docs/categories/research.md) | 48 | IOCs em publicações, não necessariamente feeds contínuos |
-| [Contexto](docs/categories/context.md) | 45 | DNS, ASN, certificados, vulnerabilidades e conhecimento |
-| [Comunidades](docs/categories/communities.md) | 24 | Canais de compartilhamento e elegibilidade |
+| [Feeds e listas](docs/categories/feeds.md) | 79 | Inclui candidatos e históricos, não apenas feeds ativos |
+| [Análise e enriquecimento](docs/categories/analysis.md) | 36 | Sandboxes, reputação e bases consultáveis |
+| [Inteligência comercial](docs/categories/commercial.md) | 66 | Produtos; API/exportação dependem da contratação |
+| [Pesquisas e repositórios](docs/categories/research.md) | 61 | IOCs em publicações, não necessariamente feeds contínuos |
+| [Contexto](docs/categories/context.md) | 50 | DNS, ASN, certificados, vulnerabilidades e conhecimento |
+| [Comunidades](docs/categories/communities.md) | 40 | Canais de compartilhamento e elegibilidade |
 | [Artefatos de detecção](docs/categories/detection.md) | 3 | Coleções mistas de regras e indicadores |
+
+| [Ferramentas e plataformas](docs/categories/tools.md) | 9 | Software de coleta e correlação; não são feeds primários |
+| [Catálogos de descoberta](docs/categories/directories.md) | 4 | Diretórios de referências; não são indicadores |
 
 ## Acesso em uma linha
 
@@ -61,7 +67,11 @@ node scripts/catalog.mjs build
 node scripts/catalog.mjs check
 ```
 
-Edite `data/sources.json`. O comando `build` regenera CSV, estatísticas, catálogo e páginas por categoria. O comando `check` valida estrutura, IDs, relações, duplicações e sincronização dos arquivos derivados. A CI executa o mesmo procedimento sem consultar ou baixar malware.
+Edite `data/sources.json`. O comando `build` regenera CSV, estatísticas, catálogo e páginas por categoria, país e descoberta. O comando `check` valida estrutura, IDs, relações, duplicações e sincronização dos arquivos derivados. A CI executa o mesmo procedimento sem consultar ou baixar malware.
+
+## Expansão regional — 21/10/2026
+
+[Decisões de curadoria](docs/RESEARCH-2026-10-21.md): 78 novas entradas, consolidação das listas repetidas, classificação geográfica com evidência e registro separado dos endpoints descobertos. Modelos de acesso ainda provisórios estão explicitamente sinalizados.
 
 ## Segunda expansão
 

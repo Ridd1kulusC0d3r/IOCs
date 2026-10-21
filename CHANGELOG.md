@@ -1,3 +1,10 @@
+# Atualização 2026-10-21
+
+- 78 registros adicionais, total 348; fontes repetidas consolidadas.
+- Navegação por país e duas categorias: ferramentas e diretórios.
+- Importadas 678 linhas de três catálogos, consolidadas em 501 URLs de descoberta, sem somar ao total de fontes.
+- 26 menções preservadas para identificação; schema 1.1.0 e geração determinística.
+
 # Changelog
 
 ## 2026-10-20 — segunda expansão

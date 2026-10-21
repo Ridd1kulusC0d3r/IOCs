@@ -53,3 +53,8 @@ P = pública; G = cadastro gratuito; F = freemium; $ = paga; R = restrita; H = h
 | src-0250 | [IP2Location](https://www.ip2location.com/) | F | Geolocalização e proxy; não implica malícia | documented; acesso: provisional | unknown |
 | src-0253 | [Ransomware.live](https://www.ransomware.live/) | P / ? | Monitoramento de publicações de ransomware; disponibilidade não verificada | retrieval_failed; acesso: provisional | unknown |
 | src-0267 | [Shreshta Newly Registered Domains](https://shreshtait.com/newly-registered-domains/) | F / ? | Domínios recém-registrados; registro recente não implica malícia | documented; acesso: provisional | unknown |
+| src-0275 | [Exploit-DB](https://www.exploit-db.com/) | P | Exploits e vulnerabilidades; não é feed de IOCs | documented; acesso: provisional | unknown |
+| src-0279 | [Have I Been Pwned](https://haveibeenpwned.com/) | F | Exposição em violações; não é feed de infraestrutura maliciosa | documented; acesso: provisional | unknown |
+| src-0315 | [BDU FSTEC](https://bdu.fstec.ru/) | P | Vulnerabilidades e modelos de ameaça | retrieval_failed; acesso: provisional | unknown |
+| src-0316 | [BDU FSTEC unofficial mirror](https://github.com/velvetway/bdu-fstec-mirror) | P | Espelho secundário não oficial | documented; acesso: provisional | unknown |
+| src-0330 | [ipinsights Israel](https://ipinsights.io/) | F | Recorte geográfico citado; país de IP não prova malícia | retrieval_failed; acesso: provisional | unknown |

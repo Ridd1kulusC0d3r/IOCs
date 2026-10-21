@@ -40,3 +40,7 @@ P = pública; G = cadastro gratuito; F = freemium; $ = paga; R = restrita; H = h
 | src-0247 | [IPVoid](https://www.ipvoid.com/) | P / ? | Consulta agregada de reputação de IP; API separada | documented; acesso: provisional | unknown |
 | src-0248 | [URLVoid](https://www.urlvoid.com/) | P / ? | Consulta agregada de reputação web; API separada | documented; acesso: provisional | unknown |
 | src-0259 | [Maltiverse](https://maltiverse.com/) | F / ? | Reputação, contexto e feeds de indicadores agregados | documented; acesso: provisional | unknown |
+| src-0292 | [RiskIQ Community / PassiveTotal (legado)](https://www.riskiq.com/community/) | H / ? | Referência legada; não pressupor disponibilidade da edição comunitária | retrieval_failed; acesso: provisional | unknown |
+| src-0318 | [X-TI](https://x-ti.ru/) | F | Portal de consulta; acesso e operador a confirmar | retrieval_failed; acesso: provisional | unknown |
+| src-0344 | [Zensec Network IoC Service](https://zensec.ae/network-indicator-of-compromise-service/) | $ | Serviço gerenciado de análise de telemetria; não é feed público | documented; acesso: provisional | unknown |
+| src-0345 | [CyberSilo ThreatSearch](https://tip.cybersilo.tech/mainpage) | ? | Portal de pesquisa; vínculo geográfico saudita alegado não confirmado | documented; acesso: provisional | unknown |

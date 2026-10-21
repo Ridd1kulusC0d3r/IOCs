@@ -1,17 +1,21 @@
 {
-  "total": 270,
+  "total": 348,
   "baseline": 217,
-  "added": 53,
-  "documented": 115,
-  "access_documented": 27,
+  "added": 131,
+  "documented": 163,
+  "access_documented": 28,
   "operationally_tested": 0,
   "categories": {
-    "feeds": 72,
-    "analysis": 32,
-    "commercial": 46,
-    "research": 48,
-    "context": 45,
-    "communities": 24,
-    "detection": 3
-  }
+    "feeds": 79,
+    "analysis": 36,
+    "commercial": 66,
+    "research": 61,
+    "context": 50,
+    "communities": 40,
+    "detection": 3,
+    "tools": 9,
+    "directories": 4
+  },
+  "discovery_urls": 501,
+  "pending_identification": 26
 }

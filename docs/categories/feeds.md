@@ -80,3 +80,10 @@ P = pública; G = cadastro gratuito; F = freemium; $ = paga; R = restrita; H = h
 | src-0271 | [hideNseek LAB CTI](https://data.hidenseek.dev/) | P / ? | JSON, CSV e blocklist listados no MISP; uma única coleção | candidate; acesso: provisional | unknown |
 | src-0272 | [NOCACTI MISP feeds](https://misp-feed.nocacti.com/) | P / ? | Feeds de intrusão e infraestrutura adversária listados no MISP | candidate; acesso: provisional | unknown |
 | src-0273 | [MalSilo feeds](https://malsilo.gitlab.io/) | P / ? | Listas de URL, IP e domínio listadas no MISP; atualidade pendente | candidate; acesso: provisional | unknown |
+| src-0274 | [xfeeds](https://zenodo.org/records/23163156) | P | Pipeline de indicadores; identidade e alegações pendentes | retrieval_failed; acesso: provisional | unknown |
+| src-0283 | [Adversary Hunter](https://github.com/cybersheepdog/Adversary-Hunter) | P | Descoberta de infraestrutura C2 | documented; acesso: provisional | unknown |
+| src-0286 | [Spydisec Threat Intel](https://github.com/spydisec/spydithreatintel) | P | Listas de indicadores; proveniência a revisar | documented; acesso: provisional | unknown |
+| src-0289 | [Fed0gaT](https://github.com/Tagoletta/Fed0gaT) | P | Agregação de indicadores; não presumir independência | documented; acesso: provisional | unknown |
+| src-0300 | [caidongyun IOCs](https://github.com/caidongyun/iocs) | P | Indicadores estruturados; país citado no material, não sede confirmada | documented; acesso: provisional | unknown |
+| src-0301 | [BlackShield](https://github.com/WinterGate-IC/blackshield-threat-intel) | P | Agregador; blocos por país não demonstram malícia | documented; acesso: provisional | unknown |
+| src-0308 | [CTT Threat Feed](https://www.anti-malware.ru/analytics/Market_Analysis/Threat-Intelligence) | ? | Referência de descoberta; publicador e endpoint a identificar | retrieval_failed; acesso: provisional | unknown |

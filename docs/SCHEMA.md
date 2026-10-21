@@ -33,3 +33,10 @@ Datas em ISO 8601. `checked_at` é a data de consulta documental, não um teste 
 `node scripts/catalog.mjs build` atualiza os derivados. README e relatórios editoriais precisam de revisão humana quando a cobertura mudar.
 
 O validador rejeita alegações de teste operacional nesta edição: introduzir esse estágio exige ampliar o modelo, registrar a prova e atualizar a validação.
+
+
+## Schema 1.1.0 — geografia e descoberta
+
+O envelope usa `schema_version: 1.1.0`. Categorias adicionais: `tools` e `directories`. Cada fonte contém `geography.provider_countries`, `coverage_countries`, `reference_countries`, `basis` e `evidence`. Códigos nacionais seguem ISO 3166-1 alpha-2; arrays vazios significam desconhecido. ZZ é reservado à navegação, não armazenado como país de uma fonte. `basis` distingue unknown, user_reported, editorial_reference e documented.
+
+`discovery_endpoints` preserva URLs encontradas em catálogos, tipos declarados, origem e relações exatas com fontes. `pending_submissions` preserva menções sem URL identificada. Esses dois conjuntos são separados da contagem de fontes. `discovery_import` registra data, contagens de entrada e regra de deduplicação. Os arquivos separados de descoberta e pendências são derivados do JSON canônico.

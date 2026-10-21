@@ -56,3 +56,16 @@ P = pública; G = cadastro gratuito; F = freemium; $ = paga; R = restrita; H = h
 | src-0255 | [WithSecureLabs IOCs](https://github.com/WithSecureLabs/iocs) | P | Indicadores de relatórios e investigações | documented; acesso: documented | unknown |
 | src-0256 | [StrangerealIntel DailyIOC](https://github.com/StrangerealIntel/DailyIOC) | P / H | Arquivo de IOCs de artigos e publicações; último push observado em 2023 | documented; acesso: documented | unknown |
 | src-0257 | [Zscaler ThreatLabz IOCs](https://github.com/ThreatLabz/iocs) | P | IOCs das pesquisas públicas do ThreatLabz | documented; acesso: documented | unknown |
+| src-0276 | [Meta Threat Research](https://github.com/facebook/threat-research) | P | Indicadores publicados em pesquisas da Meta | documented; acesso: provisional | unknown |
+| src-0277 | [Threatray Threat Research](https://github.com/threatray/threat-research) | P | Artefatos e indicadores de pesquisa | documented; acesso: provisional | unknown |
+| src-0278 | [Drosera Threat Intel](https://github.com/AfterPacket/drosera-threat-intel) | P | Artefatos de detecção e inteligência | documented; acesso: provisional | unknown |
+| src-0284 | [Infinitum-IT IOAs](https://github.com/Infinitum-IT/IOAs) | P | Indicadores e artefatos de ataques | documented; acesso: provisional | unknown |
+| src-0285 | [Nextron IOCs](https://github.com/NextronSystems/iocs) | P | Indicadores por campanha e pesquisa | documented; acesso: provisional | unknown |
+| src-0287 | [CronUp Malware IOCs](https://github.com/CronUp/Malware-IOCs) | P | Coleção para pesquisa retrospectiva; atualidade a conferir | documented; acesso: provisional | unknown |
+| src-0288 | [Wiz Research IOCs](https://github.com/wiz-sec-public/wiz-research-iocs) | P | Pesquisas sobre cloud e cadeia de suprimentos | documented; acesso: provisional | unknown |
+| src-0304 | [Knownsec 404](https://www.knownsec.com/) | P | Pesquisa técnica; identificar publicações com indicadores | candidate; acesso: provisional | unknown |
+| src-0317 | [Kaspersky ICS CERT](https://ics-cert.kaspersky.ru/) | P / ? | Pesquisa e inteligência ICS/OT; condições de feeds separadas | documented; acesso: provisional | unknown |
+| src-0327 | [Ukraine Cyber Operations](https://github.com/curated-intel/Ukraine-Cyber-Operations) | P | Curadoria comunitária sobre o conflito; cobertura não indica sede | documented; acesso: provisional | unknown |
+| src-0328 | [Orange Russia Ukraine IOCs](https://github.com/Orange-Cyberdefense/russia-ukraine_IOCs) | P / H | Coleção contextual do conflito; atualidade a conferir | documented; acesso: provisional | unknown |
+| src-0333 | [Saudi CERT](https://cert.gov.sa/) | P / ? | Alertas públicos; API comunitária não identificada | retrieval_failed; acesso: provisional | unknown |
+| src-0335 | [Certfa Lab](https://radar.certfa.com/) | P | Pesquisa sobre ameaças iranianas; cobertura não indica sede | documented; acesso: provisional | unknown |

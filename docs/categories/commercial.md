@@ -54,3 +54,23 @@ P = pública; G = cadastro gratuito; F = freemium; $ = paga; R = restrita; H = h
 | src-0245 | [Data443 Cyren Threat Intelligence](https://data443.com/cyren-threat-intelligence/) | $ | Inteligência de ameaças; marca Cyren consolidada | documented; acesso: provisional | unknown |
 | src-0246 | [Abusix Guardian Intel / Mail](https://abusix.com/) | $ / ? | Reputação e abuso de e-mail; modalidades a confirmar | documented; acesso: provisional | unknown |
 | src-0260 | [Threatray Binary Intelligence](https://www.threatray.com/) | $ / ? | Pesquisa e inteligência de malware baseada em código | documented; acesso: provisional | unknown |
+| src-0294 | [QiAnXin TI](https://ti.qianxin.com/) | F / $ | Portal de inteligência e consultas | retrieval_failed; acesso: provisional | unknown |
+| src-0295 | [360 Threat Intelligence](https://ti.360.net/) | F / $ | Inteligência e consulta de indicadores | candidate; acesso: provisional | unknown |
+| src-0296 | [Tencent TIX](https://tix.qq.com/) | F / $ | Plataforma de inteligência Tencent | candidate; acesso: provisional | unknown |
+| src-0297 | [VenusEye](https://www.venuseye.com.cn/) | F / $ | Inteligência e pesquisas de ameaças | retrieval_failed; acesso: provisional | unknown |
+| src-0298 | [DBAPPSecurity TI](https://ti.dbappsecurity.com.cn/) | F / $ | Consulta de indicadores e inteligência | documented; acesso: provisional | unknown |
+| src-0299 | [Sangfor Security Cloud Brain](https://www.sangfor.com/) | ? | Oferta citada; endpoint específico e acesso pendentes | candidate; acesso: provisional | unknown |
+| src-0305 | [Chaitin XTI](https://rivers.chaitin.cn/) | F / $ | Inteligência e pesquisas; detalhes comerciais pendentes | candidate; acesso: provisional | unknown |
+| src-0306 | [PT Fusion](https://www.anti-malware.ru/products/pt-fusion) | F / $ | Produto citado por fonte secundária; validar oferta oficial | candidate; acesso: provisional | unknown |
+| src-0309 | [AMTIP](https://amtip.ru/) | F / $ | Portal de inteligência; API e termos a confirmar | documented; acesso: provisional | unknown |
+| src-0310 | [Garda Threat Intelligence](https://www.anti-malware.ru/products/garda-threat-intelligence) | $ | Oferta comercial citada; referência oficial pendente | candidate; acesso: provisional | unknown |
+| src-0311 | [BI.ZONE Threat Intelligence](https://bi.zone/) | F / $ | Inteligência comercial; escopo gratuito a confirmar | candidate; acesso: provisional | unknown |
+| src-0312 | [F6 Threat Intelligence](https://www.f6.ru/) | $ | Oferta comercial de inteligência | candidate; acesso: provisional | unknown |
+| src-0321 | [AhnLab TIP API](https://www.ahnlab.com/jp/contents/content-center/36269) | $ | Referência de oferta de inteligência via API | documented; acesso: provisional | unknown |
+| src-0322 | [SecuLetter ConTI](https://seculetter.com/) | $ | Inteligência sobre ameaças em arquivos e e-mail | documented; acesso: provisional | unknown |
+| src-0329 | [CTIChef](https://ctichef.com/) | F / $ | Cobertura ucraniana alegada no material; país do operador desconhecido | retrieval_failed; acesso: provisional | unknown |
+| src-0334 | [GITA TI](https://cgr.ir/) | $ | Oferta citada; capacidades técnicas e operador a verificar | candidate; acesso: provisional | unknown |
+| src-0340 | [Solar TI Feeds](https://docs.data.rt-solar.ru/) | $ | Documentação de fornecimento e integração de indicadores | candidate; acesso: provisional | unknown |
+| src-0343 | [OryxLabs DARK EYE](https://edgegroup.ae/news/edge-unveils-dark-eye-dark-web-monitoring-and-brand-protection-platform) | $ | Monitoramento de exposição e proteção de marca | documented; acesso: provisional | unknown |
+| src-0346 | [SKYLINE CTI](https://alskyline.com/keywords/threat-intelligence-dark-web-brand-monitoring-saudi-arabia) | $ | Serviço comercial; formato do feed a confirmar | documented; acesso: provisional | unknown |
+| src-0347 | [Turkcell Bozok](https://www.turkcell.com.tr/kurumsal/dijital-is-servisleri/siber-guvenlik/turkcell-bozok-siber-tehdit-istihbarat) | $ | Inteligência de ameaças | documented; acesso: provisional | unknown |

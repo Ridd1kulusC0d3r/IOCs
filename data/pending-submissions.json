@@ -1,0 +1,342 @@
+[
+  {
+    "id": "pending-001",
+    "name": "Project UA-Shield / RuThreat Intel",
+    "reference_countries": [
+      "UA"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Somente dou.ua genérico; falta identificar repositório"
+  },
+  {
+    "id": "pending-002",
+    "name": "Projeto de IOCs de ataques diários contra Israel",
+    "reference_countries": [
+      "IL"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Nome e URL não fornecidos"
+  },
+  {
+    "id": "pending-003",
+    "name": "ThreatConnect Israel–Iran Conflict Dashboard",
+    "reference_countries": [
+      "IL",
+      "IR"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Duas menções consolidadas; URL do dashboard pendente"
+  },
+  {
+    "id": "pending-004",
+    "name": "InfinitumIT CTI",
+    "reference_countries": [
+      "TR"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Oferta comercial distinta do repositório IOAs; endpoint e termos pendentes"
+  },
+  {
+    "id": "pending-005",
+    "name": "JPCERT CISTA / TSUBAME",
+    "reference_countries": [
+      "JP"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Relacionar src-0146; endpoints e distinção entre coleta e pesquisa pendentes"
+  },
+  {
+    "id": "pending-006",
+    "name": "CERT-In",
+    "reference_countries": [
+      "IN"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identificar serviço de indicadores e condições de acesso"
+  },
+  {
+    "id": "pending-007",
+    "name": "ASD ACSC CTIS",
+    "reference_countries": [
+      "AU"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Relacionar src-0149; verificar elegibilidade"
+  },
+  {
+    "id": "pending-008",
+    "name": "CSA Singapore NCTAC",
+    "reference_countries": [
+      "SG"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identificar oferta de compartilhamento"
+  },
+  {
+    "id": "pending-009",
+    "name": "CYFIRMA",
+    "reference_countries": [
+      "ZZ"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identificar produto e fonte primária"
+  },
+  {
+    "id": "pending-010",
+    "name": "TeamT5 ThreatVision",
+    "reference_countries": [
+      "TW"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identificar oferta e condições"
+  },
+  {
+    "id": "pending-011",
+    "name": "CyberPulse / FoxData",
+    "reference_countries": [
+      "ZZ"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identidade e vínculo entre nomes não confirmados"
+  },
+  {
+    "id": "pending-012",
+    "name": "VNPT Threat Intelligence",
+    "reference_countries": [
+      "VN"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Localizar documentação do produto"
+  },
+  {
+    "id": "pending-013",
+    "name": "OneFirewall Alliance",
+    "reference_countries": [
+      "ZZ"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Localizar fonte primária e termos"
+  },
+  {
+    "id": "pending-014",
+    "name": "4IP-Solutions",
+    "reference_countries": [
+      "ZZ"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identificar feeds regionais citados"
+  },
+  {
+    "id": "pending-015",
+    "name": "KPMG CTI",
+    "reference_countries": [
+      "ZZ"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identificar entidade e oferta específica"
+  },
+  {
+    "id": "pending-016",
+    "name": "Security Signal / Decent Cybersecurity",
+    "reference_countries": [
+      "ZZ"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identificar produto e endpoint"
+  },
+  {
+    "id": "pending-017",
+    "name": "Blueliv Threat Compass",
+    "reference_countries": [
+      "ZZ"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Verificar marca e disponibilidade atual"
+  },
+  {
+    "id": "pending-018",
+    "name": "Resility ThreatMap",
+    "reference_countries": [
+      "BR"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identidade e origem geográfica pendentes"
+  },
+  {
+    "id": "pending-019",
+    "name": "iQBlack",
+    "reference_countries": [
+      "BR"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identidade e origem geográfica pendentes"
+  },
+  {
+    "id": "pending-020",
+    "name": "MinutoDash",
+    "reference_countries": [
+      "BR"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Agregador citado; origem e projeto pendentes"
+  },
+  {
+    "id": "pending-021",
+    "name": "Mercurius / Resecurity",
+    "reference_countries": [
+      "ZZ"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Produto e cobertura LATAM pendentes"
+  },
+  {
+    "id": "pending-022",
+    "name": "OpasIntel / OpasSecure",
+    "reference_countries": [
+      "ZZ"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identidade e cobertura africana pendentes"
+  },
+  {
+    "id": "pending-023",
+    "name": "NeuroThreat",
+    "reference_countries": [
+      "ZZ"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identidade e cobertura africana pendentes"
+  },
+  {
+    "id": "pending-024",
+    "name": "AFRISec LIVE FEED",
+    "reference_countries": [
+      "ZZ"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Identidade e endpoint pendentes"
+  },
+  {
+    "id": "pending-025",
+    "name": "S2W / relatório INTERPOL África",
+    "reference_countries": [
+      "KR"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Relatório regional não equivale a feed; fonte primária pendente"
+  },
+  {
+    "id": "pending-026",
+    "name": "SOCRadar Iran–Israel dashboard",
+    "reference_countries": [
+      "IL",
+      "IR"
+    ],
+    "url": null,
+    "access": [
+      "?"
+    ],
+    "status": "needs_identification",
+    "note": "Relacionar src-0100; não contar novamente fornecedor"
+  }
+]
