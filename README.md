@@ -1,92 +1,151 @@
-# IOCs · Threat Intelligence Source Atlas
+<div align="center">
 
-**Descobrir fontes. Entender o acesso. Preservar a evidência.**
+# IOCs
+### Threat Intelligence Source Atlas
 
-[![Catalog validation](https://github.com/Ridd1kulusC0d3r/IOCs/actions/workflows/catalog.yml/badge.svg)](https://github.com/Ridd1kulusC0d3r/IOCs/actions/workflows/catalog.yml)
-![Snapshot](https://img.shields.io/badge/snapshot-2026--10--21-2563eb)
-![Scope](https://img.shields.io/badge/scope-IOC%20%2B%20CTI-0f766e)
+**Encontre a fonte. Entenda o acesso. Confira a evidência.**
 
-Um atlas de fontes para SOC, CTI, threat hunting, DFIR e OSINT. Classifica feeds, serviços de consulta, fornecedores, repositórios, bases de contexto e comunidades por acesso, finalidade, proveniência e nível de verificação.
+Um atlas de referências de IOC e CTI para **SOC · Threat Hunting · DFIR · OSINT**.
 
-> **348 registros catalogados não significam 348 feeds ativos ou fornecedores independentes.** São 217 registros da seleção inicial e 131 adições. Há 163 registros com descoberta documental, 28 com acesso documentado e **zero endpoints testados operacionalmente**. Separadamente, foram reunidas **501 URLs de descoberta** de três catálogos e **26 menções pendentes de identificação**. Esses conjuntos têm sobreposição e não devem ser somados. [Estatísticas](data/stats.json).
+[![Validação do catálogo](https://github.com/Ridd1kulusC0d3r/IOCs/actions/workflows/catalog.yml/badge.svg)](https://github.com/Ridd1kulusC0d3r/IOCs/actions/workflows/catalog.yml)
+![Registros](https://img.shields.io/badge/registros-348-2563eb)
+![Categorias](https://img.shields.io/badge/categorias-9-0f766e)
+![Snapshot dos dados](https://img.shields.io/badge/dados-2026--10--21-475569)
 
-## Explore
+[**Explorar catálogo**](docs/CATALOG.md) · [**Navegar por país**](docs/COUNTRIES.md) · [**Consultar JSON**](data/sources.json) · [**Consultar CSV**](data/sources.csv)
 
-| Quero… | Abrir |
+</div>
+
+---
+
+## Comece pela sua necessidade
+
+| Você precisa… | Caminho |
 |---|---|
-| Navegar por país | [Índice geográfico](docs/COUNTRIES.md) |
-| Explorar os catálogos importados | [501 URLs de descoberta](docs/DISCOVERY.md) |
-| Revisar menções ainda não identificadas | [Fila de identificação](docs/PENDING-SUBMISSIONS.md) |
-| Consultar todas as fontes | [Catálogo completo](docs/CATALOG.md) |
-| Importar metadados em uma ferramenta | [JSON canônico](data/sources.json) · [CSV](data/sources.csv) |
-| Ver a expansão da pesquisa | [131 entradas adicionadas](docs/NEW-SOURCES.md) · [Achados e correções](docs/RESEARCH-2026-10-20.md) |
-| Entender gratuito, pago e restrito | [Classificação de acesso](docs/ACCESS.md) |
-| Integrar no MISP, OpenCTI ou Wazuh | [Guia de integração](docs/INTEGRATIONS.md) |
-| Avaliar confiabilidade e atualidade | [Metodologia](docs/METHODOLOGY.md) · [Fila de revisão](docs/REVIEW-QUEUE.md) |
-| Contribuir sem inflar a lista | [Contribuição](CONTRIBUTING.md) · [Modelo de dados](docs/SCHEMA.md) |
+| Encontrar feeds de IP, domínio, URL ou hash | [Feeds e listas](docs/categories/feeds.md) |
+| Investigar um observável | [Análise e enriquecimento](docs/categories/analysis.md) |
+| Comparar ofertas comerciais | [Inteligência comercial](docs/categories/commercial.md) |
+| Obter indicadores com contexto de campanha | [Pesquisas e repositórios](docs/categories/research.md) |
+| Descobrir referências regionais | [Índice por país](docs/COUNTRIES.md) |
+| Avaliar fontes ainda não incorporadas | [Registro de descoberta](docs/DISCOVERY.md) |
+| Preparar integração com MISP, OpenCTI ou Wazuh | [Guia de integração](docs/INTEGRATIONS.md) |
 
-## Cobertura
+## O inventário em números
 
-| Categoria | Registros | O que representa |
+| Conjunto | Quantidade | Como interpretar |
 |---|---:|---|
-| [Feeds e listas](docs/categories/feeds.md) | 79 | Inclui candidatos e históricos, não apenas feeds ativos |
-| [Análise e enriquecimento](docs/categories/analysis.md) | 36 | Sandboxes, reputação e bases consultáveis |
-| [Inteligência comercial](docs/categories/commercial.md) | 66 | Produtos; API/exportação dependem da contratação |
-| [Pesquisas e repositórios](docs/categories/research.md) | 61 | IOCs em publicações, não necessariamente feeds contínuos |
-| [Contexto](docs/categories/context.md) | 50 | DNS, ASN, certificados, vulnerabilidades e conhecimento |
-| [Comunidades](docs/categories/communities.md) | 40 | Canais de compartilhamento e elegibilidade |
-| [Artefatos de detecção](docs/categories/detection.md) | 3 | Coleções mistas de regras e indicadores |
+| Registros catalogados | **348** | Fontes, produtos, ferramentas e comunidades em nove categorias |
+| URLs de descoberta | **501** | Endpoints reunidos de três catálogos, deduplicados por URL |
+| Menções a identificar | **26** | Referências recebidas que ainda precisam de identificação suficiente |
+| Registros com descoberta documentada | **163** | Evidência de identidade, finalidade ou metadados oficiais |
+| Registros com acesso documentado | **28** | Modelo geral de acesso sustentado por evidência |
+| Endpoints testados operacionalmente | **0** | Nenhuma ingestão foi validada nesta curadoria |
 
-| [Ferramentas e plataformas](docs/categories/tools.md) | 9 | Software de coleta e correlação; não são feeds primários |
-| [Catálogos de descoberta](docs/categories/directories.md) | 4 | Diretórios de referências; não são indicadores |
+**Os conjuntos se sobrepõem e não devem ser somados.** Os 348 registros não representam 348 feeds ativos nem fornecedores independentes. As 501 URLs podem incluir formatos alternativos, espelhos e recortes da mesma fonte. A meta de 700 fontes independentes ainda não foi demonstrada.
 
-## Acesso em uma linha
+[Estatísticas em JSON](data/stats.json) · [Critérios de curadoria](docs/METHODOLOGY.md)
 
-**P** pública · **G** gratuita com cadastro · **F** freemium · **$** paga · **R** restrita · **H** histórica · **?** a confirmar.
+> [!NOTE]
+> O selo de validação verifica a estrutura e a consistência dos arquivos do repositório. Ele não comprova disponibilidade, precisão ou atualização dos feeds externos.
 
-O código resume o produto; `verification.access` informa se esse resumo foi documentado ou é preliminar. Acesso à interface, API, uso comercial e redistribuição são campos distintos. `null` significa **desconhecido**, nunca “permitido”.
+## Explore por categoria
 
-## Como usar
+| Categoria | Registros | Conteúdo |
+|---|---:|---|
+| [Feeds e listas](docs/categories/feeds.md) | 79 | Listas de indicadores, incluindo candidatas e históricas |
+| [Inteligência comercial](docs/categories/commercial.md) | 66 | Produtos e serviços; API e exportação dependem dos termos |
+| [Pesquisas e repositórios](docs/categories/research.md) | 61 | Indicadores e artefatos publicados em investigações |
+| [Contexto](docs/categories/context.md) | 50 | DNS, ASN, certificados, vulnerabilidades e bases auxiliares |
+| [Comunidades](docs/categories/communities.md) | 40 | Canais de compartilhamento e acesso por elegibilidade |
+| [Análise e enriquecimento](docs/categories/analysis.md) | 36 | Sandboxes, reputação e consultas de observáveis |
+| [Ferramentas e plataformas](docs/categories/tools.md) | 9 | Software de coleta, modelagem e correlação |
+| [Catálogos de descoberta](docs/categories/directories.md) | 4 | Diretórios para localizar outras fontes |
+| [Artefatos de detecção](docs/categories/detection.md) | 3 | Coleções de regras e indicadores |
 
-1. Escolha uma necessidade: phishing, C2, malware, fraude, OT ou enriquecimento.
-2. Filtre a categoria e o modelo de acesso no JSON/CSV.
-3. Confira as evidências e a licença da fonte.
-4. Valide o endpoint escolhido em ambiente controlado.
-5. Preserve origem, confiança, datas de observação e expiração de cada IOC.
-6. Meça ganho de cobertura e falsos positivos antes de aplicar bloqueio.
+## Explore por país
 
-Não importe este CSV como blocklist: ele contém **metadados de fontes**, não indicadores de comprometimento.
+[**Todos os países e referências sem país determinado →**](docs/COUNTRIES.md)
 
-## Atualizar e validar
+| Recorte | Atalhos |
+|---|---|
+| Américas | [Brasil](docs/countries/BR.md) · [Estados Unidos](docs/countries/US.md) · [Canadá](docs/countries/CA.md) |
+| Europa | [França](docs/countries/FR.md) · [Reino Unido](docs/countries/GB.md) · [Polônia](docs/countries/PL.md) · [Suécia](docs/countries/SE.md) · [Ucrânia](docs/countries/UA.md) |
+| Ásia e Oceania | [China](docs/countries/CN.md) · [Coreia do Sul](docs/countries/KR.md) · [Japão](docs/countries/JP.md) · [Austrália](docs/countries/AU.md) |
+| Rússia e Turquia | [Rússia](docs/countries/RU.md) · [Turquia](docs/countries/TR.md) |
+| Oriente Médio e Golfo | [Israel](docs/countries/IL.md) · [Irã](docs/countries/IR.md) · [EAU](docs/countries/AE.md) · [Arábia Saudita](docs/countries/SA.md) · [Catar](docs/countries/QA.md) · [Omã](docs/countries/OM.md) · [Bahrein](docs/countries/BH.md) |
 
-Requer Node.js 22 ou posterior; sem dependências externas.
+A navegação distingue **país do fornecedor**, **cobertura da inteligência** e **país de referência informado ou associado editorialmente**. Cada registro indica a base dessa classificação. Uma página regional pode conter menções pendentes; associação geográfica não comprova sede legal nem atribuição de ataques.
+
+## Entenda o acesso
+
+| Código | Classificação | Leitura prática |
+|:---:|---|---|
+| **P** | Pública | Referência de acesso público; licença e uso comercial exigem conferência |
+| **G** | Gratuita com cadastro | Cadastro ou credencial pode ser necessário |
+| **F** | Freemium | Camadas gratuitas e pagas podem ter limites distintos |
+| **$** | Paga | Acesso associado a contratação ou assinatura |
+| **R** | Restrita | Depende de aprovação, associação ou elegibilidade |
+| **H** | Histórica | Marcador de ciclo de vida; pode acompanhar outro código de acesso |
+| **?** | A confirmar | Informação insuficiente para classificar com segurança |
+
+Combinações como **P / $** descrevem modalidades diferentes. Confira `verification.access`: **documented** indica evidência registrada; **provisional** indica classificação preliminar; **unknown** indica informação desconhecida. Interface, API, exportação, uso comercial e redistribuição têm condições próprias.
+
+[Guia completo de acesso](docs/ACCESS.md) · [Proveniência e direitos](docs/PROVENANCE.md)
+
+## Use a curadoria em uma investigação
+
+1. **Defina a necessidade:** phishing, C2, malware, fraude, OT ou enriquecimento.
+2. **Selecione as referências:** use categoria, país e acesso para formar uma lista curta.
+3. **Confira a evidência:** revise origem, atualidade, termos e dependência de outros feeds.
+4. **Valide a integração:** teste formato, autenticação, limites e comportamento do endpoint.
+5. **Avalie o resultado:** preserve contexto, datas e expiração; meça cobertura e falsos positivos antes de bloquear.
+
+> [!IMPORTANT]
+> JSON e CSV contêm **metadados de fontes**, não uma blocklist de IOCs. Um endereço listado neste repositório identifica uma referência de pesquisa, não um destino malicioso.
+
+## Dados e documentação
+
+| Recurso | Finalidade |
+|---|---|
+| [sources.json](data/sources.json) | Fonte canônica do catálogo, geografia, relações, evidências e descoberta |
+| [sources.csv](data/sources.csv) | Visão tabular dos 348 registros para filtros e análise |
+| [discovery-endpoints.json](data/discovery-endpoints.json) | URLs de descoberta com referências aos catálogos de origem |
+| [pending-submissions.json](data/pending-submissions.json) | Menções que aguardam identificação |
+| [Modelo de dados](docs/SCHEMA.md) | Campos e regras do schema 1.1.0 |
+| [Fila de revisão](docs/REVIEW-QUEUE.md) | Acesso, atualidade e outras incertezas a revisar |
+| [Fila de identificação](docs/PENDING-SUBMISSIONS.md) | Referências ainda sem identificação suficiente |
+
+Campos `null` e listas geográficas vazias representam informação desconhecida. Não significam autorização, ausência de restrições ou cobertura global.
+
+## Evolução da pesquisa
+
+O inventário reúne **217 registros da seleção inicial revisada** e **131 adições**, com duplicações consolidadas.
+
+| Rodada | Adições | Registro da pesquisa |
+|---|---:|---|
+| Primeira expansão | 33 | [Achados e correções](docs/RESEARCH-2026-10-20.md) |
+| Segunda expansão | 20 | [Evidências e candidatas MISP](docs/RESEARCH-2026-10-20-ROUND2.md) |
+| Expansão regional | 78 | [Consolidações, países e limites](docs/RESEARCH-2026-10-21.md) |
+
+[Entradas adicionadas](docs/NEW-SOURCES.md) · [Histórico de mudanças](CHANGELOG.md)
+
+## Contribua e mantenha o catálogo
+
+Requer **Node.js 22 ou posterior**, sem dependências externas.
+
+Edite `data/sources.json`, registre as evidências e gere as páginas derivadas:
 
 ```bash
-node scripts/catalog.mjs check
 node scripts/catalog.mjs build
 node scripts/catalog.mjs check
 ```
 
-Edite `data/sources.json`. O comando `build` regenera CSV, estatísticas, catálogo e páginas por categoria, país e descoberta. O comando `check` valida estrutura, IDs, relações, duplicações e sincronização dos arquivos derivados. A CI executa o mesmo procedimento sem consultar ou baixar malware.
+O comando `build` regenera CSV, estatísticas e páginas por categoria, país e descoberta. O comando `check` verifica estrutura, relações, duplicações e sincronização dos arquivos gerados. A CI executa a validação sem consultar os feeds externos.
 
-## Expansão regional — 21/10/2026
+Ao propor uma fonte, informe nome, URL, finalidade, acesso, evidência e relação com fornecedores ou coleções já existentes. Variantes de formato e espelhos precisam ter sua relação explicitada.
 
-[Decisões de curadoria](docs/RESEARCH-2026-10-21.md): 78 novas entradas, consolidação das listas repetidas, classificação geográfica com evidência e registro separado dos endpoints descobertos. Modelos de acesso ainda provisórios estão explicitamente sinalizados.
+[Como contribuir](CONTRIBUTING.md) · [Metodologia](docs/METHODOLOGY.md)
 
-## Segunda expansão
+---
 
-[20 novas entradas e suas evidências](docs/RESEARCH-2026-10-20-ROUND2.md): 14 com documentação direta e seis candidatas identificadas no catálogo oficial MISP, incluindo referências atribuídas ao Banco do Brasil e SERPRO.
-
-## Correções que importam
-
-- **Monty Security C2 Tracker:** arquivado; README informa remoção dos arquivos de feed. Mantido como histórico.
-- **Unit 42 antigo repositório:** arquivado; separado das pesquisas atuais.
-- **Phishing.Database:** endereço atualizado para a organização Phishing-Database.
-- **USOM:** endereço antigo redireciona; endpoint sucessor não validado.
-- **Lista anterior 218–220:** recorte FS-ISAC Europe, grupo FIRST e comunidade temática MISP removidos da contagem; veja o histórico.
-
-## Proveniência e limites
-
-[Proveniência e direitos](docs/PROVENANCE.md) · [Changelog](CHANGELOG.md)
-
-A curadoria aponta para os publicadores e não redistribui suas bases. Licenças de repositórios não substituem termos de datasets de terceiros. A lista é um inventário em evolução, não um selo de qualidade, um ranking ou uma afirmação de exaustividade.
+A curadoria aponta para os publicadores e não redistribui suas bases. Licenças de código não substituem os termos dos datasets. Este é um inventário em evolução: disponibilidade, permissões e qualidade devem ser verificadas para cada uso.
